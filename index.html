@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Score keeper</title>
+</head>
+<body>
+  <h1 id="score"><span id="scorePlayer1">0</span> to <span id="scorePlayer2" >0</span></h1>
+  <h2>Playing to: <span id="played" >5</span></h2>
+  <select id="monSelect" onchange="changeSelect(event);">
+      <option value="1">1</option> 
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5" selected>5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+  </select>
+  <input id="btnPlayer1" type="button" value="Player 1">
+  <input id="btnPlayer2" type="button" value="Player 2">
+  <input id="btnReset" type="button" value="Reset">
+  <script src="app.js"></script>
+</body>
+</html>
